@@ -24,7 +24,7 @@ export default function Donation() {
             <DonationData />
           </Group>
         </Paper>
-        {/* <Paper shadow="xs" p="md">
+        <Paper shadow="xs" p="md">
           <Group>
             <Text>Tom</Text>
             <Text>Sawyer</Text>
@@ -41,7 +41,7 @@ export default function Donation() {
             <Text>10000</Text>
             <Text>{dayjs("2023-08-26 06:17:51").format("D-MMM HH:mm:ss")}</Text>
           </Group>
-        </Paper> */}
+        </Paper>
       </Stack>
     </Card>
   );  
